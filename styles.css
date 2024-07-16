@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffe6e6; 
+    color: #333;
+}
+
+header {
+    background-color: #ff99cc; 
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#home {
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 1em;
+}
+
+.service, .project, .faq-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-info {
+    max-width: 60%;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    background-color: #ff99cc; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 1em;
+    color: #ff99cc; 
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #ff99cc; 
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
